@@ -1,0 +1,45 @@
+form {
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+form input {
+  width: 400px;
+  border: none;
+  outline: none;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: var(--black);
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+form .form-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 1.5rem;
+  color: var(--btn);
+  background-color: transparent;
+  border-radius: 0 0.5rem 0.5rem 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 920px) {
+  form input {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  form .form-icon {
+    border-radius: 0.5rem;
+  }
+}
+/*# sourceMappingURL=Search.css.map */
